@@ -12,6 +12,7 @@ body {
     display: flex;
     margin: 170px 500px;
     position: relative;
+    background-color: #70BF73;
 }
 
 .div1 {
@@ -75,10 +76,10 @@ body {
 
 .div2 a {
     color: black;
-    font-size: 39px;
-    font-weight: 500;
-    border: 2px solid greenyellow;
-    margin: 0px 50px;
+    font-size: 49px;
+    font-weight: 700;
+    /* border: 2px solid greenyellow; */
+    margin: 0px 140px;
     top: 190px;
     position: absolute;
     border-radius: 25px;
@@ -118,9 +119,9 @@ body {
     top: 346px;
     font-size: 40px;
     font-weight: 400;
-    margin: 0px 220px;
+    margin: 0px 259px;
     color: black;
-    border: 2px solid white;
+    /* border: 2px solid white; */
     border-radius: 10px;
 }
 
