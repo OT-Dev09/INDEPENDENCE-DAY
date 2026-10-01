@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: green;
+    border: 2px solid white;
+    
+}
+
+h1 {
+    border: 2px solid white;
+    padding: 250px 550px;
+    font-family: 'Courier New', Courier, monospace ;
+    position: relative;
+    /* word-spacing: 20px; */
+}
+
+.h1a {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    transition: 1s;
+    position: absolute;
+    letter-spacing: 1px;
+}
+
+.h1a:hover {
+    transform: scale(1.2,1.6);
+    color: #012E1D;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 600;
+    padding: 70px 800px;
+    font-family: 'Courier New', Courier, monospace ;
+    animation: h2 1s;
+}
+
+@keyframes h2 {
+    from {
+        transform: translate(-800px);
+    }
+
+    to {
+        transform: rotate(345deg);
+    }
+}
